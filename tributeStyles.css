@@ -1,0 +1,65 @@
+img {
+    display: block;
+  }
+  
+  #tribute-heading {
+  text-align: center;
+  margin: 0;
+  padding-top: 40px;
+  font-family: Helvetica;
+  }
+  #tribute-subheading {
+    text-align: center;
+    font-family: Helvetica;
+  }
+  
+  #image {
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    padding-bottom: 10px;
+  }
+  
+  #img-div 
+  {
+    padding-top: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 10px;
+    background-color:	#b8ab90;
+    margin: auto;
+    text-align: center;
+  }
+  
+  #main-div {
+    background-color: 	#d0caba;
+    height: 2000px;
+  }
+  
+  #main-div1 {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Helvetica;
+    margin-bottom: 25px;
+  }
+  
+  #tribute-info {
+    font-weight: bold;
+    font-family: Helvetica;
+    text-align: center;
+  }
+  
+  li {
+    margin-bottom: 25px;
+  }
+  
+  #year {
+    font-weight: bold;
+  }
+   
+  #final-part {
+    text-align: center;
+    font-weight: bold;
+    font-family: Helvetica;
+  }

@@ -1,0 +1,59 @@
+body {
+    background-color: #142C3E;
+  }
+  
+  #title {
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #input-box {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;  background-color: #5f96bf;
+    height: 30%;
+    margin-top: 40px;
+    border: 5px solid white;
+    color: white;
+    text-align: center;
+  }
+  
+  #input-box h1 {
+    font-size: 30px;
+  }
+  
+  #number {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 30%;
+    color: white;
+  font-size: 18px;  background-color: #142C3E;
+    border: 2px solid white;
+  }
+  
+  #convert-btn {
+    width: 80%;
+    margin-top: 10px;
+    height: 25%;
+    background:
+    linear-gradient(180deg, 
+        #feec88,
+        #FFD700);
+    border: 3px solid #FFD700;
+    color: #142C3E;
+    font-size: 15px;
+  }
+  
+  #output {
+    margin-top: 100px;
+    background-color: #5f96bf;
+    height: 30%;
+    border: 5px solid white; 
+    padding: 15px;
+  }

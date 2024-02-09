@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Event Evaluation Form</title>
+    <link rel="stylesheet" href="surveyStyles.css" />
+  </head>
+  <body>
+    <h1 id="title">Event Evaluation Form</h1>
+    <p id="description">Please evaluate the event in the form below.</p>
+
+    <div class="background">
+    <form id="survey-form">
+      <label id="name-label">Name: 
+        <input id="name" type="text" required placeholder="Name" />
+      </label>
+    <label id="email-label">Email: 
+      <input placeholder="Email" id="email" type="email" required />
+    </label>
+      <label id="number-label">Age (optional)  
+        <input placeholder="Age" id="number" type="number" min="13" max="120" />
+      </label>
+
+      <label for="event-type">What type of event was this?
+        <select id="dropdown" name="event-type">
+          <option value="">(select one)</option>
+          <option value="1">Social</option>
+          <option value="2">Presentation</option>
+          <option value="3">Informational</option>
+          <option value="4">Formal Party</option>
+        </select>
+      </label>
+
+      <fieldset>
+        <legend>Would you attend this event again?</legend>
+          <label for="definitely"><input id="definitely" value="1" type="radio" name="answer" checked /> Definitely</label>
+          <label for="maybe"><input id="maybe" type="radio" name="answer" value="2" /> Maybe</label>
+          <label for="not-sure"><input id="not-sure" value="3" type="radio" name="answer" /> Not Sure</label>
+      </fieldset>
+
+      
+    <fieldset>
+      <label for="enjoy-rating"> What did you enjoy about the event? Check all that apply.
+      </label>
+        <label for="games">
+        <input value="1" id="box1" type="checkbox" required name="check1" /> Games
+      </label>
+      <label for="presenters">
+        <input value="2" id="box2" type="checkbox" required name="check2" /> Presenters
+      </label>
+      <label for="Music">
+        <input value="3" id="box3" type="checkbox" required name="check3" /> Music
+      </label>
+    </fieldset>
+      <label for="comments">Please include any comments on how we can improve for next time.
+          <textarea id="comments" name="comments" rows="3" cols="40" placeholder="Please add any comments here..."></textarea>
+        </label>
+        <input type="submit" id="submit" value="Submit" />
+    </form
+    </div>
+
+  </body>
+
+</html>

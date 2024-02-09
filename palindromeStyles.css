@@ -1,0 +1,61 @@
+body {
+    background-color: blue;
+  }
+  
+  .title {
+    color: white;
+    text-align: center;
+    margin-top: 20%;
+    font-size: 20px;
+    font-family: Times New Roman;
+  }
+  
+  .text-box {
+    background-color: white;
+    font-size: 18px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+  }
+  
+  .text-box1 {
+    background-color: #006600;
+    font-size: 18px;
+    color: white;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  .style {
+    font-style: italic;
+  }
+  #check {
+    width: 75px;
+    height: 35px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    
+  }
+  
+  hr {
+    width: 145px;
+    margin-top: 0;
+    margin-left: 30px;
+    background-color: black;
+    height: 2px;
+  }
+  
+  input {
+    border: none;
+  }

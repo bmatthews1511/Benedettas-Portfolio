@@ -1,9 +1,13 @@
+<!--creating the boilerplate-->
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <!--allowing text to be displayed in multiple languages and characters-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--the title shown in the tab name-->
     <title>Benedetta's Portfolio</title>
+    <!--linking the stylesheet-->
     <link rel="stylesheet" href="./styles.css">
      <link
       rel="stylesheet"
@@ -21,6 +25,7 @@
       </nav>
     </header>
   <body>
+    <!--do i need a main???-->
     <section id="welcome-section">
       <div class="welcome-section">
       <h1 class="welcome-title">Hi, I'm Benedetta</h1>
@@ -28,6 +33,56 @@
       </div>
 
     </section>
+<!--create a form element-->
+<!--create a field box where they can enter in their email-->
+<!--create a contact section with checkboxes and radio buttons where they can email me-->
+<!--do i need to add a figure somewhere?-->
+<!--add multiple classes in 1 element-->
+    
+
+  <div class="resume">
+      <p class="resume_head">RESUME</p>
+      <p>here is where my resume will be shown in a timeline format.</p>
+     <div class="stems">
+      <div class="dot1 dots">
+        <p>EXPERIENCE</p>
+      </div>
+      <div class="dot2 dots">
+        <p>EXPERIENCE</p>
+      </div>
+     </div>
+      <div class="stem1"></div>
+      
+      <div class="stem3"></div>
+      
+      <div class="stem5"></div>
+      
+      <div class="timeline">
+        <div class="year" id="_2020">
+          2020
+        </div>
+        <div class="year" id="_2021">
+          2021
+        </div>
+        <div class="year" id="_2022">
+          2022
+        </div>
+        <div class="year" id="_2023">
+          2023
+        </div>
+        <div class="year" id="_2024">
+          2024
+        </div>
+      </div>
+      <div class="stem2"></div>
+      <div class="stem4"></div>
+   
+    </div>
+
+
+
+
+
     <section id="projects">
       <div class="test1">
       <div class="test">
@@ -37,7 +92,7 @@
          <img src = "survey.png">
          </div>
        <div class="name1">
-       <h1>Survey Form</h1>
+       <p>Survey Form</p>
        </div>
       </div></a>
       <a href="tribute.html" target="_blank">
@@ -46,7 +101,7 @@
           <img id="sabrina" src = "sabrina1.jpeg">
           </div>
           <div class="name1">
-       <h1>Tribute Page</h1>
+       <p>Tribute Page</p>
           </div>
       </div></a>
        <a href="magazine.html" target="_blank">
@@ -55,7 +110,7 @@
         <img src = "magazine.png">
         </div>
         <div class="name1">
-       <h1>Magazine</h1>
+       <p>Magazine</p>
       </div>
       </div></a>
       <a href="palindrome.html" target="_blank">
@@ -64,7 +119,7 @@
         <img src = "palindrome.png">
         </div>
         <div class="name1">
-       <h1>Palindrome Checker</h1>
+       <p>Palindrome Checker</p>
       </div>
       </div></a>
       <a href="romanNumeral.html" target="_blank">
@@ -73,7 +128,7 @@
         <img src = "romanNumeral.png">
         </div>
       <div class="name1">
-       <h1>Roman Numeral Converter</h1>
+       <p>Roman Numeral Converter</p>
       </div>
       </div></a>
       <a href="telephone.html" target="_blank">
@@ -82,7 +137,7 @@
           <img src = "telephone.png">
           </div>
           <div class="name1">
-      <h1>Telephone Number Validator</h1>
+      <p>Telephone Number Validator</p>
     </div>
     </div></a>
     <a href="dice.html" target="_blank">
@@ -91,7 +146,7 @@
           <img src = "dice.png">
           </div>
           <div class="name1">
-       <h1>Dice Game</h1>
+       <p>Dice Game</p>
       </div>
       </div></a>
       <a href="platformer.html" target="_blank">
@@ -100,7 +155,7 @@
         <img src = "platformer.png">
         </div>
         <div class="name1">
-      <h1>Platformer Game</h1>
+      <p>Platformer Game</p>
     </div>
     </div></a>
     <a href="quiz.html" target="_blank">
@@ -109,7 +164,7 @@
           <img src = "quizpic.png">
           </div>
           <div class="name1">
-       <h1>Quiz</h1>
+       <p>Quiz</p>
           </div>
       </div></a>
        </div>
@@ -119,35 +174,47 @@
 
     <section id="contact">
       <div id="contact-me" class="contact-me">
-        <h1>Let's Work Together...</h1>
-        <p> How do you take your coffee?</p>
+
+      
+          
+        <h1 class="link_head">Let's Work Together...</h1>
+            <p class="link_subhead"> How do you take your coffee?</p>
+       
+        
+        
+
         <div class="social-icons">
-          <a href="https://github.com/bmatthews1511">
+
+          <div class="icon1">
+          <a href="https://github.com/bmatthews1511" target="_blank">
             <i class="fab fa-github">
+              <p>Github</p>
             </i>
           </a>
-           <a href="https://github.com/bmatthews1511">
-          <p>Github</p> 
-          </a>
-          <a href="https://www.linkedin.com/in/benedetta-matthews/">
-            <i class="fab fa-linkedin-in"></i>
-          </a>
-           <a href="https://www.linkedin.com/in/benedetta-matthews/">
+          </div>
+
+          <div class="icon2">
+          <a href="https://www.linkedin.com/in/benedetta-matthews/" target="_blank">
+            <i class="fab fa-linkedin-in">
           <p>LinkedIn</p>
+            </i>
           </a>
-           
-            <i class="fa fa-envelope"></i>
-          </a>
+          </div>
+
+          <div class="icon3">
+            <i class="fa fa-envelope">
+              <p>benedettamatthews@gmail.com</p>
+            </i>
           
-          <p>benedettamatthews@gmail.com</p>
-           </a>
+        </i>
+           
         </div>
-        <div class="line">
+        
           <div class="footer">
           <p>**All projects created using the freeCodeCamp cirriculum.</p>
-          <p><a href="freecodecamp.com">freeCodeCamp.com</a></p>
+          <p><a href="freecodecamp.com" target="_blank">freeCodeCamp.com</a></p>
           </div>
-          </div>
+      
       </div>
     </section>
     

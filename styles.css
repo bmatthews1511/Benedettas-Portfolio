@@ -4,11 +4,18 @@
   }
 }
 /*you might need to remove all pixels eventually*/
-.welcome-section {
+
+.welcome_resume {
   background: linear-gradient(30deg, 
       #CAACE4,
       #9D70DF,
       #6A32BC);
+}
+.welcome-section {
+  /*background: linear-gradient(30deg, 
+      #CAACE4,
+      #9D70DF,
+      #6A32BC);*/
   width: 100%;
   height: 100vh;
   font-family: 'Gill Sans';
@@ -18,7 +25,8 @@
   text-align: center;
   padding-top: 50vh;
   margin: 0;
-  font-size: 3.125rem;
+  /*font-size: 3.125rem;*/
+  font-size: 8vh;
   color: white;
 }
 
@@ -27,7 +35,7 @@
   padding: 0;
   margin-top: 0;
   font-style: italic;
-  font-size: 1.875rem;
+  font-size: 5vh;
   color: white;
 
 }
@@ -40,13 +48,15 @@ header {
   background-color: grey;
   position: fixed;
   border-bottom: 0.2rem solid rgba(0, 0, 0, .3);
+  z-index: 5;
   top: 0;
 }
 
 nav {
   height: 100%;
   display: flex;
-  justify-content: space-between;
+  /*space-between*/
+  justify-content: flex-end;
   align-items: center;
 }
 
@@ -55,7 +65,7 @@ nav > ul {
   justify-content: space-evenly;
   flex-wrap: wrap;
   align-items: center;
-  padding-inline-start: 75%;
+  /*padding-inline-start: 60vw;*/
   margin-block: 0px;
   height: 100%;
 }
@@ -85,10 +95,10 @@ li > a {
 .resume {
 height: 100vh;
 width: 100%;
-background: linear-gradient(30deg, 
+/*background: linear-gradient(30deg, 
       #CAACE4,
       #9D70DF,
-      #6A32BC);
+      #6A32BC);*/
 width: 100%;
 position: relative;
 /*the hover effect won't work with a z index of -1*/
@@ -188,10 +198,6 @@ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   float: left;
 }
 
-
-
-
-
 .timeline {
   height: 6vh;
   width: 80%;
@@ -237,51 +243,55 @@ border: none;
     }
 
 
+
+
+
+
 .test1 {
   width: 100%;
   background: linear-gradient(90deg, grey, #9B9EA0, grey);
-  /*height: 1000px*/
-  height: 62.5rem;
-  margin-top: 0px;
+  min-height: auto;
+  margin-top: 0;
 }
 
 .test {
-  box-sizing: border-box;
-  width: 80%;
-  height: 100%;
+  /*box-sizing: border-box;*/
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 90%;
+  min-height: auto;
   margin-top: 0px;
-  /*padding-top: 40px;*/
-  padding-top: 2.5rem;
-  /*margin-left: 215px;*/
-  margin-left: 13.438rem;
-  margin-right: auto
-  //margin-bottom: 50px;
-  /*max-width: 1200px*/
-  max-width: 75rem;
-  /*background-color: red;*/
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 120vh;
+  
+  /*align-content: space-between;*/
 }
 
 .project-tile {
   background-color: #CAACE4;
-  /*width: 300px;*/
-  width: 18.75rem;
-  /*height: 270px;*/
-  height: 16.875rem;
-  border-radius: 0.625rem;
-  /*border-radius: 10px;*/
-  overflow: hidden;
-  /*padding: 10px;*/
-  padding: 0.625rem;
-  /*margin: 10px;*/
-  margin: 0.625rem;
-  float: left;
+  width: 30vh;
+  height: 27vh;
+  border-radius: 1vh;
+
+  font-size: 2.4vh;
+  font-weight: 550;
   font-family: 'Gill Sans';
   color: white;
+
+  /*overflow: hidden;*/
+  padding: 1vh;
+  margin: 1vh;
+  float: left;
   display: flex;
   flex-direction: column;
   text-align: center;
-  font-size: 1.5rem;
-  font-weight: 550;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
 }
 
 .project-tile:hover {
@@ -297,16 +307,19 @@ border: none;
 
 
 .name0 {
-  background-color: blue;
-  /*height: 210px;*/
-  height: 13.125rem;
-  //width: 10px;
-  //margin-top: 50px;
+  /*background-color: blue;*/
+  height: 21vh;
+}
+
+.name0 > img {
+  height: 21vh;
 }
 
 .name1{
   background-color: #CAACE4;
 }
+
+
 
 .contact-me {
   background: linear-gradient(30deg, 
@@ -316,6 +329,8 @@ border: none;
   width: 100%;
   height: 100vh;
   position: relative;
+ 
+  padding-top: 10vh;
   /*the nav bar disappears here, idk how to fix*/
 }
 
@@ -323,10 +338,12 @@ border: none;
 .link_head {
   text-align: center;
   padding-top: 30vh;
-  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
   color: white;
-  font-size: 2.6rem;
+  font-size: 6vh;
   font-family: 'Gill Sans';
+  /*attaching the classes to the h1 and p instead of divs removed the white space between the divs!*/
 }
 
 .link_subhead {
@@ -336,20 +353,20 @@ border: none;
   color: white;
   font-family: 'Gill Sans';
   font-style: bold;
-  font-size: 1.5rem;
+  font-size: 4vh;
 }
 
 
 .social-icons  {
-  font-size: 1.8rem;
+  font-size: 2.88vh;
   color: white;
   text-align: center;
   top: 0;
 }
 
 i {
-  padding: 0px;
-  padding-left: 30px;
+  padding: 0;
+  padding-left: 4vh;
   margin: 0;
   font-family: 'Gill Sans';
   display: inline-block;
@@ -360,7 +377,7 @@ i > p {
 }
 
 .social-icons p {
-  font-size: 1.3rem;
+  font-size: 3vh;
   font-family: 'Gill Sans';
 }
 
@@ -413,7 +430,7 @@ a {
   margin-inline: 0;
   height: 15%;
   width: 100%;
-  border-top: 0.2rem solid white;
+  border-top: 0.32vh solid white;
   position: absolute;
   bottom: 0;
 /*look up how to do a footer*/
@@ -421,6 +438,6 @@ a {
 
 #sabrina 
 {
-  width: 18.75rem;
-  height: 17.188rem;
+  width: 30vh;
+  height: 27.501vh;
 }
